@@ -7,7 +7,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.hive.HiveContext
 import com.databricks.spark.xml
 
-//sqlContext
+
 
 object BestBuy {
 
@@ -99,8 +99,6 @@ object BestBuy {
 
 
 // spark-submit --packages com.databricks:spark-xml_2.10:0.4.0 --master yarn --class com.sparkprograms.BestBuy spark-programs_2.10-1.0.jar
-
-
 
 
   }
